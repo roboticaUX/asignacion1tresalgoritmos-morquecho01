@@ -1,0 +1,12 @@
+# Calcular el factorial de un número dado
+# la función debe ser recursiva, no estructuras iterativas
+
+def factorial(n):
+  
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print("Resultado del numero factorial: ")
+print(factorial(7))
